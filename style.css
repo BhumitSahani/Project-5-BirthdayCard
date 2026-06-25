@@ -1,0 +1,77 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background: linear-gradient(rgb(78, 78, 238), red);
+    color: white;
+}
+h1, h2, h4 {
+        text-shadow: 0px 0px 1px black;
+}
+#bday-age, #bday-date {
+    background-color: rgb(255, 174, 187);
+    padding: 4px 8px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#photo {
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 174, 187);
+    margin-bottom: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.giftbox{
+    width: 400px;
+    height: 400px;
+    border: 5px solid green;
+    border-radius: 10px;
+    background-image: url("giftbox.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: orangered;
+    display: block;
+    margin: 0px auto;
+}
+#giftbox-happy:hover {
+    background-image: url("happy.gif");
+    background-size: cover;
+}
+.message {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.instruction {
+    margin-top: 5px;
+}
+#giftbox-awesome:hover {
+    background-image: url("awesome guy.gif");
+    background-size: cover;
+}
+#giftbox-best:hover {
+    background-image: url("you're best.gif");
+    background-size: cover;
+}
+#giftbox-bond:hover {
+    background-image: url("bond.gif");
+    background-size: cover;
+}
+#giftbox-cheers {
+    height: 200px;
+}
+#giftbox-cheers:hover {
+    background-image: url("cheers.gif");
+    background-size: cover;
+}
+footer{
+    font-style: italic;
+    margin-top: 50px;
+}
+a {
+    color:white;
+}
